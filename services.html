@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEDBYLIGHT - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Our Services</h1> 
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+            <ul class="menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>🚧  Beep beep!  🚧</h2>
+                <p>This page is currently under construction.  My coding fingers are busy building something amazing!  In the meantime, feel free to explore the rest of my website or connect with me on social media.</p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LEDBYLIGHT</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active'); // Toggles the visibility of the navigation links
+            });
+        });
+    </script>
+
+</body>
+</html>

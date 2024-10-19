@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEDBYLIGHT - About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>About Me</h1> 
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+            <ul class="menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="about-me-paragraph">
+                <div class="about-box">
+                    <h2>My Journey from Code to Goats (and Beyond!)</h2>
+                    <p>As a kid, I always pictured myself as a software developer/graphic designer, dreaming of creating apps and visuals for Apple. (I blame those iPod commercials.) While my dreams have evolved since then – I've discovered a love for the broader world of computers and the world of IT – that early fascination sparked a passion that continues to drive me today. Currently, I'm navigating the exciting (and sometimes chaotic) degree of computer science at Grand Canyon University, where I'm immersed in code, algorithms, and other crazy shenanigans with my roommate. But my journey doesn't stop there! I have dreams of taking my skills across the globe, immersing myself in the German tech scene, maybe even pursuing a master's degree in Berlin or Munich. (I've been teaching myself German for the past year, also ich kann ziemlich gut Deutsch verstehen!)</p>
+                </div>
+
+                <div class="about-box">
+                    <h2>Faith, Family, and a Future Full of Adventure</h2>
+                    <p>Beyond the world of bits and bytes, I'm live a life filled with laughter, adventure, and genuine connection. My family is my rock – my six siblings and I are a force to be reckoned with, and we share a bond that's unbreakable. (Who else delivers baby goats at their house?!? Hello??) Speaking of goats, these little guys have stolen a piece of my heart, and spending time with them is my ultimate stress reliever. (There's something incredibly grounding about hanging out with animals who are completely unfazed by this world.) In the future, I hope to build a family of my own, creating a home filled with the same love, laughter, and maybe even a few furry friends. And while my path might take some unexpected turns, I'm committed to staying true to my honesty, integrity, and faith – every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LEDBYLIGHT</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active'); // Toggles the visibility of the navigation links
+            });
+        });
+    </script>
+
+</body>
+</html>
